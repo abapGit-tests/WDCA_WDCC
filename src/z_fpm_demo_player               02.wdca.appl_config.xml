@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Name="FPM_DEMO_PLAYER" ConfId="Z_FPM_DEMO_PLAYER" ConfType="02" ConfVar="">
+ <Component Name="FPM_OIF_COMPONENT" Usage="FPM_DEMO_PLAYER" ConfType="00" ConfId="Z_FPM_DEMO_PLAYER_OIF" ConfVar="" Interface="False">
+  <Component Name="FPM_IDR_COMPONENT" Usage="IDR_USAGE" ConfType="00" ConfId="Z_FPM_DEMO_PLAYER_IDR" ConfVar="" Interface="False"/>
+ </Component>
+</Application>
