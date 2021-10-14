@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_FORM_UIBB" ConfId="Z_FPM_DEMO_PLAYER_FORM_FOOTBALL" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="FORM" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FEEDER>CL_FPM_DEMO_PLAYER</FEEDER>
+     <TITLE Transl="true"/>
+     <LAYOUT_TYPE/>
+     <GUIDELINE/>
+     <CHECK_MANDATORY/>
+     <Node Name="PARAMETER" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <NAME Final="5 ">TYPE</NAME>
+       <VALUE>F</VALUE>
+      </Item>
+     </Node>
+     <Node Name="GROUP" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <TITLE Transl="true">1</TITLE>
+       <INDEX>1</INDEX>
+       <GROUP_TYPE>F2</GROUP_TYPE>
+       <ELEMENT_ID Final="5 ">_CFG_GROUP_1</ELEMENT_ID>
+       <LOCATION>0</LOCATION>
+       <Node Name="MELTING_GROUP" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ROW>4</ROW>
+         <ELEMENT_ID Final="5 ">_CFG_MELTING_GROUP_10</ELEMENT_ID>
+         <COLUMN>1</COLUMN>
+         <Node Name="MELTING_GRP_ELEMENT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <NAME>GENDER</NAME>
+           <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+           <INDEX>1</INDEX>
+           <VISIBILITY_LABEL>02</VISIBILITY_LABEL>
+           <TEXT Transl="true"/>
+           <ELEMENT_ID Final="5 ">_CFG_MELTING_GRP_ELEMENT_11</ELEMENT_ID>
+           <SPECIAL_PROPERTIES/>
+           <WIDTH/>
+           <TAG_ACTIVE/>
+           <TOOLTIP Transl="true"/>
+           <Node Name="MELTING_GRP_ACTION" SimpleFormat="true"/>
+          </Item>
+          <Item Index="000002" SimpleFormat="true">
+           <NAME>GENDER_IMAGE</NAME>
+           <DISPLAY_TYPE>IM</DISPLAY_TYPE>
+           <INDEX>2</INDEX>
+           <VISIBILITY_LABEL>01</VISIBILITY_LABEL>
+           <TEXT Transl="true">5</TEXT>
+           <ELEMENT_ID Final="5 ">_CFG_MELTING_GRP_ELEMENT_12</ELEMENT_ID>
+           <SPECIAL_PROPERTIES/>
+           <WIDTH/>
+           <TAG_ACTIVE/>
+           <TOOLTIP Transl="true"/>
+           <Node Name="MELTING_GRP_ACTION" SimpleFormat="true"/>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="ELEMENT" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <NAME>ID</NAME>
+         <DISPLAY_TYPE>TV</DISPLAY_TYPE>
+         <ROW>1</ROW>
+         <VISIBILITY_LABEL>02</VISIBILITY_LABEL>
+         <COLUMN>1</COLUMN>
+         <TEXT Transl="true"/>
+         <ELEMENT_ID Final="5 ">_CFG_ELEMENT_2</ELEMENT_ID>
+         <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ALIGNMENT&gt;03&lt;/ALIGNMENT&gt;&lt;PASSWORD_FIELD/&gt;&lt;WRAPPING/&gt;&lt;TEXT_VIEW_LAYOUT&gt;01&lt;/TEXT_VIEW_LAYOUT&gt;&lt;TEXTVIEW_SEM_COL&gt;00&lt;/TEXTVIEW_SEM_COL&gt;&lt;TEXT_VIEW_DESIGN&gt;09&lt;/TEXT_VIEW_DESIGN&gt;&lt;BUTTON_DESIGN&gt;00&lt;/BUTTON_DESIGN&gt;&lt;IMAGE_SOURCE/&gt;&lt;IMAGE_SOURCE_CHECKED/&gt;&lt;LINK_TYPE&gt;00&lt;/LINK_TYPE&gt;&lt;COL_COUNT&gt;40&lt;/COL_COUNT&gt;&lt;ROW_COUNT&gt;5&lt;/ROW_COUNT&gt;&lt;TEXT_WRAPPING&gt;02&lt;/TEXT_WRAPPING&gt;&lt;TARGET/&gt;&lt;LINK_DESIGN&gt;00&lt;/LINK_DESIGN&gt;&lt;TOGGLE_BUTTON_DESIGN&gt;00&lt;/TOGGLE_BUTTON_DESIGN&gt;&lt;DEPENDENT_CHECKBOX/&gt;&lt;REPEAT_SEL_ACTION/&gt;&lt;HOTKEY&gt;00&lt;/HOTKEY&gt;&lt;BORDER&gt;0&lt;/BORDER&gt;&lt;MAX_TICK_MARKS&gt;0&lt;/MAX_TICK_MARKS&gt;&lt;SHOW_TICK_MARKS/&gt;&lt;UNIT_WIDTH&gt;0&lt;/UNIT_WIDTH&gt;&lt;TICK_MARK_SPACING&gt;0&lt;/TICK_MARK_SPACING&gt;&lt;THRESHOLDS/&gt;&lt;SUGGEST_FILTER_METHOD&gt;00&lt;/SUGGEST_FILTER_METHOD&gt;&lt;SUGGEST_VALUES/&gt;&lt;DISPLAY_AS_TEXT/&gt;&lt;MIME_TYPE/&gt;&lt;TOOLBAR_BUTTON_DESIGN&gt;00&lt;/TOOLBAR_BUTTON_DESIGN&gt;&lt;KEY_VISIBLE/&gt;&lt;HIDE_VALUE/&gt;&lt;VIRUS_SCAN_PROFILE/&gt;&lt;ACTION_MENU_ID/&gt;&lt;HIDE_TEXT/&gt;&lt;QUICKVIEW_ID/&gt;&lt;QUICKVIEW_IMAGE_REF&gt;IMAGE_URL&lt;/QUICKVIEW_IMAGE_REF&gt;&lt;SELECTED_ACTION_ITEM/&gt;&lt;ALT_DDIC_SHLP_NAME/&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+         <WIDTH/>
+         <TAG_ACTIVE/>
+         <TOOLTIP Transl="true"/>
+         <Node Name="ELEMENT_ACTION" SimpleFormat="true"/>
+        </Item>
+        <Item Index="000002" SimpleFormat="true">
+         <NAME>FIRST_NAME</NAME>
+         <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+         <ROW>2</ROW>
+         <VISIBILITY_LABEL>02</VISIBILITY_LABEL>
+         <COLUMN>1</COLUMN>
+         <TEXT Transl="true"/>
+         <ELEMENT_ID Final="5 ">_CFG_ELEMENT_3</ELEMENT_ID>
+         <SPECIAL_PROPERTIES/>
+         <WIDTH/>
+         <TAG_ACTIVE/>
+         <TOOLTIP Transl="true"/>
+         <Node Name="ELEMENT_ACTION" SimpleFormat="true"/>
+        </Item>
+        <Item Index="000003" SimpleFormat="true">
+         <NAME>LAST_NAME</NAME>
+         <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+         <ROW>2</ROW>
+         <VISIBILITY_LABEL>02</VISIBILITY_LABEL>
+         <COLUMN>2</COLUMN>
+         <TEXT Transl="true"/>
+         <ELEMENT_ID Final="5 ">_CFG_ELEMENT_4</ELEMENT_ID>
+         <SPECIAL_PROPERTIES/>
+         <WIDTH/>
+         <TAG_ACTIVE/>
+         <TOOLTIP Transl="true"/>
+         <Node Name="ELEMENT_ACTION" SimpleFormat="true"/>
+        </Item>
+        <Item Index="000004" SimpleFormat="true">
+         <NAME>DATE_OF_BIRTH</NAME>
+         <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+         <ROW>3</ROW>
+         <VISIBILITY_LABEL>02</VISIBILITY_LABEL>
+         <COLUMN>1</COLUMN>
+         <TEXT Transl="true"/>
+         <ELEMENT_ID Final="5 ">_CFG_ELEMENT_5</ELEMENT_ID>
+         <SPECIAL_PROPERTIES/>
+         <WIDTH/>
+         <TAG_ACTIVE/>
+         <TOOLTIP Transl="true"/>
+         <Node Name="ELEMENT_ACTION" SimpleFormat="true"/>
+        </Item>
+        <Item Index="000005" SimpleFormat="true">
+         <NAME>PLACE_OF_BIRTH</NAME>
+         <DISPLAY_TYPE>IN</DISPLAY_TYPE>
+         <ROW>3</ROW>
+         <VISIBILITY_LABEL>02</VISIBILITY_LABEL>
+         <COLUMN>2</COLUMN>
+         <TEXT Transl="true"/>
+         <ELEMENT_ID Final="5 ">_CFG_ELEMENT_6</ELEMENT_ID>
+         <SPECIAL_PROPERTIES/>
+         <WIDTH/>
+         <TAG_ACTIVE/>
+         <TOOLTIP Transl="true"/>
+         <Node Name="ELEMENT_ACTION" SimpleFormat="true"/>
+        </Item>
+       </Node>
+       <Node Name="BUTTON_ROW" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ROW>5</ROW>
+         <ELEMENT_ID>_CFG_BUTTON_ROW_13</ELEMENT_ID>
+         <Node Name="BUTTON_ROW_ELEMENT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <DISPLAY_TYPE>BT</DISPLAY_TYPE>
+           <INDEX>1</INDEX>
+           <TEXT Transl="true"/>
+           <ELEMENT_ID>_CFG_BUTTON_ROW_ELEMENT_14</ELEMENT_ID>
+           <SPECIAL_PROPERTIES/>
+           <Node Name="BUTTON_ACTION" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <EVENT_ID>PREVIOUS_PLAYER</EVENT_ID>
+             <TEXT Transl="true"/>
+             <INDEX>1</INDEX>
+             <EVENT_PARAMETERS/>
+             <ACTION_TYPE>0</ACTION_TYPE>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000002" SimpleFormat="true">
+           <DISPLAY_TYPE>BT</DISPLAY_TYPE>
+           <INDEX>2</INDEX>
+           <TEXT Transl="true"/>
+           <ELEMENT_ID>_CFG_BUTTON_ROW_ELEMENT_15</ELEMENT_ID>
+           <SPECIAL_PROPERTIES/>
+           <Node Name="BUTTON_ACTION" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <EVENT_ID>NEXT_PLAYER</EVENT_ID>
+             <TEXT Transl="true"/>
+             <INDEX>1</INDEX>
+             <EVENT_PARAMETERS/>
+             <ACTION_TYPE>0</ACTION_TYPE>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="DROP" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="CTXT_MENU" SimpleFormat="true"/>
+     <Node Name="QUICKVIEW" SimpleFormat="true"/>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

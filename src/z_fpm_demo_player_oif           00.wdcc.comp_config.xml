@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_OIF_COMPONENT" ConfId="Z_FPM_DEMO_PLAYER_OIF" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="OIF_APPLICATION" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <Node Name="APPLICATION_SETTINGS" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <TRANSIENT_STATE/>
+       <MAXIMUM_MESSAGES_SIZE>0</MAXIMUM_MESSAGES_SIZE>
+       <SHOW_MESSAGE_LOG/>
+       <FPM_MESSAGE_AREA_DISPLAY>0</FPM_MESSAGE_AREA_DISPLAY>
+       <FPM_MESSAGE_AREA_DESIGN>0</FPM_MESSAGE_AREA_DESIGN>
+      </Item>
+     </Node>
+     <Node Name="INITIAL_SCREEN" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <LAYOUT_TYPE/>
+       <Node Name="INIT_SCREEN_TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <IS_CONFIGURED/>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+     <Node Name="VARIANT" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID Final="5 ">VARIANT_1</ID>
+       <NAME Transl="true">1</NAME>
+       <ACTION_TYPE>0</ACTION_TYPE>
+       <Node Name="CONF_STEP_VIEW_ATTR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <LAYOUT_TYPE/>
+        </Item>
+       </Node>
+       <Node Name="MAINVIEW" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">MV_FOOTBALL</ID>
+         <NAME Transl="true">2</NAME>
+         <INDEX>1</INDEX>
+         <HIDDEN/>
+         <Node Name="SUBVIEW" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <ID Final="5 ">SV_FOOTBALL</ID>
+           <NAME Transl="true">3</NAME>
+           <INDEX>1</INDEX>
+           <LAYOUT_TYPE/>
+           <HIDDEN/>
+           <Node Name="UIBB" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <COMPONENT>FPM_LIST_UIBB</COMPONENT>
+             <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+             <CONFIG_ID>Z_FPM_DEMO_PLAYER_LIST_FOOTBALL</CONFIG_ID>
+             <CONFIG_TYPE>00</CONFIG_TYPE>
+             <CONFIG_VAR/>
+             <LOCATION>0</LOCATION>
+             <INDEX>1</INDEX>
+             <NEEDS_STRETCHING/>
+             <FPM_PRIMARY_ATTRIBUTE Final="5 ">_CFG_UIBB_1</FPM_PRIMARY_ATTRIBUTE>
+             <HIDDEN/>
+            </Item>
+            <Item Index="000002" SimpleFormat="true">
+             <COMPONENT>FPM_FORM_UIBB</COMPONENT>
+             <INTERFACE_VIEW>FORM_WINDOW</INTERFACE_VIEW>
+             <CONFIG_ID>Z_FPM_DEMO_PLAYER_FORM_FOOTBALL</CONFIG_ID>
+             <CONFIG_TYPE>00</CONFIG_TYPE>
+             <CONFIG_VAR/>
+             <LOCATION>0</LOCATION>
+             <INDEX>2</INDEX>
+             <NEEDS_STRETCHING/>
+             <FPM_PRIMARY_ATTRIBUTE Final="5 ">_CFG_UIBB_3</FPM_PRIMARY_ATTRIBUTE>
+             <HIDDEN/>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+        <Item Index="000002" SimpleFormat="true">
+         <ID Final="5 ">MV_TENNIS</ID>
+         <NAME Transl="true">4</NAME>
+         <INDEX>2</INDEX>
+         <HIDDEN/>
+         <Node Name="SUBVIEW" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <ID Final="5 ">SV_TENNIS</ID>
+           <NAME Transl="true">5</NAME>
+           <INDEX>1</INDEX>
+           <LAYOUT_TYPE/>
+           <HIDDEN/>
+           <Node Name="UIBB" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <COMPONENT>FPM_LIST_UIBB</COMPONENT>
+             <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+             <CONFIG_ID>Z_FPM_DEMO_PLAYER_LIST_TENNIS</CONFIG_ID>
+             <CONFIG_TYPE>00</CONFIG_TYPE>
+             <CONFIG_VAR/>
+             <LOCATION>0</LOCATION>
+             <INDEX>1</INDEX>
+             <NEEDS_STRETCHING/>
+             <FPM_PRIMARY_ATTRIBUTE Final="5 ">_CFG_UIBB_5</FPM_PRIMARY_ATTRIBUTE>
+             <HIDDEN/>
+            </Item>
+            <Item Index="000002" SimpleFormat="true">
+             <COMPONENT>FPM_FORM_UIBB</COMPONENT>
+             <INTERFACE_VIEW>FORM_WINDOW</INTERFACE_VIEW>
+             <CONFIG_ID>Z_FPM_DEMO_PLAYER_FORM_TENNIS</CONFIG_ID>
+             <CONFIG_TYPE>00</CONFIG_TYPE>
+             <CONFIG_VAR/>
+             <LOCATION>0</LOCATION>
+             <INDEX>2</INDEX>
+             <NEEDS_STRETCHING/>
+             <FPM_PRIMARY_ATTRIBUTE Final="5 ">_CFG_UIBB_6</FPM_PRIMARY_ATTRIBUTE>
+             <HIDDEN/>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <DUPLICATE>X</DUPLICATE>
+         <IS_CONFIGURED>X</IS_CONFIGURED>
+         <Node Name="OTHER_FUNCTIONS" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <IS_CONFIGURED>X</IS_CONFIGURED>
+           <Node Name="BUTTON" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <LABEL Transl="true">6</LABEL>
+             <VISIBILITY>02</VISIBILITY>
+             <ENABLED>X</ENABLED>
+             <DESIGN>00</DESIGN>
+             <EXPLANATION Transl="true"/>
+             <EVENT_ID>TOGGLE_EDIT</EVENT_ID>
+             <ACTION_TYPE>0</ACTION_TYPE>
+             <OTHER_FUNCTION_INDEX>0</OTHER_FUNCTION_INDEX>
+             <TOOLTIP Transl="true"/>
+             <ELEMENT_ID/>
+             <IS_CONFIGURED>X</IS_CONFIGURED>
+             <FPM_PRIMARY_ATTRIBUTE Final="5 ">_CFG_BUTTON_7</FPM_PRIMARY_ATTRIBUTE>
+             <HOTKEY>00</HOTKEY>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+         <Node Name="CHECK" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <VISIBILITY>02</VISIBILITY>
+           <ENABLED>X</ENABLED>
+           <EXPLANATION Transl="true"/>
+           <LABEL Transl="true">7</LABEL>
+           <TOOLTIP Transl="true"/>
+           <IS_CONFIGURED>X</IS_CONFIGURED>
+           <DEFAULT_BUTTON>X</DEFAULT_BUTTON>
+           <HOTKEY>00</HOTKEY>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="WIRE_MODEL" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <TRANSACTION/>
+         <Node Name="WIRE" SimpleFormat="true"/>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

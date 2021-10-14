@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_LIST_UIBB" ConfId="Z_FPM_DEMO_PLAYER_LIST_FOOTBALL" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="LIST" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <FEEDER>CL_FPM_DEMO_PLAYER</FEEDER>
+     <TITLE Transl="true">2</TITLE>
+     <LEAD_SEL_EVENT_ID/>
+     <Node Name="BUTTON_ROW" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <Node Name="BUTTON_ROW_ELEMENT" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <DISPLAY_TYPE>BT</DISPLAY_TYPE>
+         <INDEX>1</INDEX>
+         <TEXT Transl="true"/>
+         <ELEMENT_ID>_CFG_BUTTON_ROW_ELEMENT_6</ELEMENT_ID>
+         <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ALIGNMENT&gt;03&lt;/ALIGNMENT&gt;&lt;PASSWORD_FIELD/&gt;&lt;WRAPPING/&gt;&lt;TEXT_VIEW_LAYOUT&gt;01&lt;/TEXT_VIEW_LAYOUT&gt;&lt;TEXTVIEW_SEM_COL&gt;00&lt;/TEXTVIEW_SEM_COL&gt;&lt;TEXT_VIEW_DESIGN&gt;09&lt;/TEXT_VIEW_DESIGN&gt;&lt;BUTTON_DESIGN&gt;00&lt;/BUTTON_DESIGN&gt;&lt;IMAGE_SOURCE&gt;ICON_INSERT_ROW&lt;/IMAGE_SOURCE&gt;&lt;LINK_TYPE&gt;00&lt;/LINK_TYPE&gt;&lt;COL_COUNT&gt;40&lt;/COL_COUNT&gt;&lt;ROW_COUNT&gt;5&lt;/ROW_COUNT&gt;&lt;TEXT_WRAPPING&gt;02&lt;/TEXT_WRAPPING&gt;&lt;TARGET/&gt;&lt;LINK_DESIGN&gt;00&lt;/LINK_DESIGN&gt;&lt;TOGGLE_BUTTON_DESIGN&gt;00&lt;/TOGGLE_BUTTON_DESIGN&gt;&lt;DEPENDENT_CHECKBOX/&gt;&lt;REPEAT_SEL_ACTION/&gt;&lt;HOTKEY&gt;00&lt;/HOTKEY&gt;&lt;BORDER&gt;0&lt;/BORDER&gt;&lt;MAX_TICK_MARKS&gt;0&lt;/MAX_TICK_MARKS&gt;&lt;SHOW_TICK_MARKS/&gt;&lt;UNIT_WIDTH&gt;0&lt;/UNIT_WIDTH&gt;&lt;TICK_MARK_SPACING&gt;0&lt;/TICK_MARK_SPACING&gt;&lt;THRESHOLDS/&gt;&lt;SUGGEST_VALUES/&gt;&lt;DISPLAY_AS_TEXT/&gt;&lt;MIME_TYPE/&gt;&lt;TOOLBAR_BUTTON_DESIGN&gt;00&lt;/TOOLBAR_BUTTON_DESIGN&gt;&lt;KEY_VISIBLE/&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+         <TOOLTIP Transl="true"/>
+         <Node Name="BUTTON_ACTION" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <EVENT_ID>ADD_PLAYER</EVENT_ID>
+           <TEXT Transl="true"/>
+           <INDEX>1</INDEX>
+           <EVENT_PARAMETERS/>
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_42010A02B0231EDC8AFB38D569735D40</FPM_PRIMARY_ATTRIBUTE>
+          </Item>
+         </Node>
+        </Item>
+        <Item Index="000002" SimpleFormat="true">
+         <DISPLAY_TYPE>BT</DISPLAY_TYPE>
+         <INDEX>2</INDEX>
+         <TEXT Transl="true"/>
+         <ELEMENT_ID>_CFG_BUTTON_ROW_ELEMENT_7</ELEMENT_ID>
+         <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;
+&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;BN1&gt;&lt;ALIGNMENT&gt;03&lt;/ALIGNMENT&gt;&lt;PASSWORD_FIELD/&gt;&lt;WRAPPING/&gt;&lt;TEXT_VIEW_LAYOUT&gt;01&lt;/TEXT_VIEW_LAYOUT&gt;&lt;TEXTVIEW_SEM_COL&gt;00&lt;/TEXTVIEW_SEM_COL&gt;&lt;TEXT_VIEW_DESIGN&gt;09&lt;/TEXT_VIEW_DESIGN&gt;&lt;BUTTON_DESIGN&gt;00&lt;/BUTTON_DESIGN&gt;&lt;IMAGE_SOURCE&gt;ICON_DELETE_ROW&lt;/IMAGE_SOURCE&gt;&lt;LINK_TYPE&gt;00&lt;/LINK_TYPE&gt;&lt;COL_COUNT&gt;40&lt;/COL_COUNT&gt;&lt;ROW_COUNT&gt;5&lt;/ROW_COUNT&gt;&lt;TEXT_WRAPPING&gt;02&lt;/TEXT_WRAPPING&gt;&lt;TARGET/&gt;&lt;LINK_DESIGN&gt;00&lt;/LINK_DESIGN&gt;&lt;TOGGLE_BUTTON_DESIGN&gt;00&lt;/TOGGLE_BUTTON_DESIGN&gt;&lt;DEPENDENT_CHECKBOX/&gt;&lt;REPEAT_SEL_ACTION/&gt;&lt;HOTKEY&gt;00&lt;/HOTKEY&gt;&lt;BORDER&gt;0&lt;/BORDER&gt;&lt;MAX_TICK_MARKS&gt;0&lt;/MAX_TICK_MARKS&gt;&lt;SHOW_TICK_MARKS/&gt;&lt;UNIT_WIDTH&gt;0&lt;/UNIT_WIDTH&gt;&lt;TICK_MARK_SPACING&gt;0&lt;/TICK_MARK_SPACING&gt;&lt;THRESHOLDS/&gt;&lt;SUGGEST_VALUES/&gt;&lt;DISPLAY_AS_TEXT/&gt;&lt;MIME_TYPE/&gt;&lt;TOOLBAR_BUTTON_DESIGN&gt;00&lt;/TOOLBAR_BUTTON_DESIGN&gt;&lt;KEY_VISIBLE/&gt;&lt;/BN1&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+         <TOOLTIP Transl="true"/>
+         <Node Name="BUTTON_ACTION" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <EVENT_ID>REMOVE_PLAYER</EVENT_ID>
+           <TEXT Transl="true"/>
+           <INDEX>1</INDEX>
+           <EVENT_PARAMETERS/>
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_42010A02B0231EDC8AFB38D569737D40</FPM_PRIMARY_ATTRIBUTE>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+     <Node Name="COLUMN" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <NAME>FIRST_NAME</NAME>
+       <DISPLAY_TYPE>TV</DISPLAY_TYPE>
+       <INDEX>1</INDEX>
+       <HEADER Transl="true"/>
+       <ELEMENT_ID Final="5 ">_CFG_COLUMN_1</ELEMENT_ID>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH/>
+       <TAG_ACTIVE/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY>00</VISIBILITY>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <NAME>LAST_NAME</NAME>
+       <DISPLAY_TYPE>TV</DISPLAY_TYPE>
+       <INDEX>2</INDEX>
+       <HEADER Transl="true"/>
+       <ELEMENT_ID Final="5 ">_CFG_COLUMN_2</ELEMENT_ID>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH/>
+       <TAG_ACTIVE/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY>00</VISIBILITY>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <NAME>GENDER_IMAGE</NAME>
+       <DISPLAY_TYPE>IM</DISPLAY_TYPE>
+       <INDEX>3</INDEX>
+       <HEADER Transl="true"/>
+       <ELEMENT_ID Final="5 ">_CFG_COLUMN_3</ELEMENT_ID>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH/>
+       <TAG_ACTIVE/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY>00</VISIBILITY>
+      </Item>
+      <Item Index="000004" SimpleFormat="true">
+       <NAME>DATE_OF_BIRTH</NAME>
+       <DISPLAY_TYPE>TV</DISPLAY_TYPE>
+       <INDEX>4</INDEX>
+       <HEADER Transl="true"/>
+       <ELEMENT_ID Final="5 ">_CFG_COLUMN_4</ELEMENT_ID>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH/>
+       <TAG_ACTIVE/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY>00</VISIBILITY>
+      </Item>
+      <Item Index="000005" SimpleFormat="true">
+       <NAME>PLACE_OF_BIRTH</NAME>
+       <DISPLAY_TYPE>TV</DISPLAY_TYPE>
+       <INDEX>5</INDEX>
+       <HEADER Transl="true"/>
+       <ELEMENT_ID Final="5 ">_CFG_COLUMN_5</ELEMENT_ID>
+       <SPECIAL_PROPERTIES/>
+       <WIDTH/>
+       <TAG_ACTIVE/>
+       <TOOLTIP Transl="true"/>
+       <VISIBILITY>00</VISIBILITY>
+      </Item>
+     </Node>
+     <Node Name="PARAMETER" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <NAME Final="5 ">TYPE</NAME>
+       <VALUE>F</VALUE>
+      </Item>
+     </Node>
+     <Node Name="SETTINGS" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <VISIBLE_COL_COUNT>0</VISIBLE_COL_COUNT>
+       <VISIBLE_ROW_COUNT>0</VISIBLE_ROW_COUNT>
+       <SEL_EVENT_TYPE/>
+       <SELECTION_MODE>02</SELECTION_MODE>
+       <SELECTION_CHANGE_BEHAVIOUR>00</SELECTION_CHANGE_BEHAVIOUR>
+       <STYLE_OF_RENDERING/>
+       <ACCESS_DESCR Transl="true">1</ACCESS_DESCR>
+       <CHECK_MANDATORY/>
+       <EXPORT_EXCEL/>
+       <LIST_WIDTH>100%</LIST_WIDTH>
+       <ENABLE_H_SCROLLING/>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>
